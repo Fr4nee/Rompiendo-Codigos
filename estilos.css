@@ -32,7 +32,12 @@ ul li{
 
 /* Fin del Header*/
 /*Inicio del Main */
+.tarjetasPersonales{
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
 
+}
 
 
 /* Fin del Main*/
