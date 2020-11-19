@@ -1,0 +1,38 @@
+body{
+    background: black;
+    margin: 0px auto;
+    color: white;
+}
+/* Inicio Header*/
+header{
+    height: 100px;
+
+}
+header img{
+    margin-top: 0%;
+    margin-left: 100px;
+    float: left;
+}
+
+ul{
+    float: right;
+    margin-right: 50px;
+    height: 100px;
+}
+
+ul li{
+    height: 26px;
+    float: left;
+    list-style: none;
+    padding: 10px;
+    font-size: 25px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+/* Fin del Header*/
+/*Inicio del Main */
+
+
+
+/* Fin del Main*/
