@@ -2,8 +2,7 @@ html {
     background-color: rgb(0, 0, 0);
 }
 
-#logo {
-    text-align: center;
+img#logo {
     padding-left: 32.5%;
     width: 15em;
 }
@@ -44,3 +43,21 @@ html {
         transition: all 500ms cubic-bezier(1 ,0 ,0 ,1);
         transition-timing-function: cubic-bezier(1 ,0 ,0 ,1);
     }
+h2#nomint{
+    color: white;
+    text-align: center;
+}
+
+img#foto{
+    position: relative;
+    float: left;
+    margin: 1em;
+}
+
+.text {
+    color: white;
+    padding: 2em;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5em;
+}
