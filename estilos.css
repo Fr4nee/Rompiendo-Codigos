@@ -11,6 +11,7 @@ html {
 .button {
     list-style-type: none;
     font-size: 3em;
+    font-family: fantasy;
 }
 
 .button li a {
