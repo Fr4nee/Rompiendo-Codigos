@@ -9,39 +9,43 @@ header{
 }
 header img{
     margin-left: 100px;
-    float: left;
+    /*float: left;*/
 }
 
 ul{
-    float: right;
+    /*float: right;*/
     margin-right: 10px;
     height: 50px;
-    margin-top: 40px;
+    margin-top: 20px;
+    text-align: right;
+    position: relavite;
 }
 
 ul li{
     height: 26px;
-    float: left;
+    /*float: left;*/
     list-style: none;
+    text-align: right;
     padding: 10px;
     font-size: 25px;
     line-height: 26px;
     letter-spacing: 2px;
+    /*display: inline-block;*/
 }
-
 /* Fin del Header*/
+
 /*Inicio del Main */
 section{
     width: 80%;
     margin: 0px auto;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 .tarjetasPersonales{
     width: 300px;
     height: auto;
     border: 1px solid gray;
     margin: 15px;
-    float: left; 
+    /*float: left;*/
 }
 
 .tarjetasPersonales h2 {
