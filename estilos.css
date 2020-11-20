@@ -55,3 +55,79 @@ section{
 }
 
 /* Fin del Main*/
+
+
+
+
+
+
+
+
+
+
+
+/*html {
+    background-color: rgb(0, 0, 0);
+}
+
+img#logo {
+    padding-left: 32.5%;
+    width: 15em;
+}
+
+.button {
+    list-style-type: none;
+    font-size: 3em;
+    font-family: fantasy;
+}
+
+.button li a {
+    color: #000;
+    text-decoration: none;
+    text-shadow: 
+    1px 0 0 rgb(255, 255, 255), 
+    -1px 0 0 rgb(255, 255, 255), 
+    0 1px 0 rgb(255, 255, 255), 
+    0 -1px 0 rgb(255, 255, 255), 
+    0.5px 0.5px rgb(255, 255, 255), 
+    -0.5px -0.5px 0 rgb(255, 255, 255),         
+    0.5px -0.5px 0 rgb(255, 255, 255),
+    -0.5px 0.5px 0 rgb(255, 255, 255);
+}
+
+.franco a {
+    background-image: url(fran.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding: 5%;
+    background-position: absolute;
+} 
+
+    .franco a:hover{
+        outline: 1px solid #000;
+        opacity: 0.7;
+        padding: 6%;transition-property: opacity;
+        transition: all 500ms cubic-bezier(1 ,0 ,0 ,1);
+        transition-timing-function: cubic-bezier(1 ,0 ,0 ,1);
+    }
+h2#nomint{
+    color: white;
+    text-align: center;
+}
+
+img#foto{
+    position: relative;
+    float: left;
+    margin: 1em;
+}
+
+.text {
+    color: white;
+    padding: 2em;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.5em;
+}*/
+
+
+
