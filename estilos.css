@@ -9,11 +9,11 @@ header{
 }
 header img{
     margin-left: 100px;
-    /*float: left;*/
+    float: left;
 }
 
 ul{
-    /*float: right;*/
+    float: right;
     margin-right: 10px;
     height: 50px;
     margin-top: 20px;
@@ -23,7 +23,7 @@ ul{
 
 ul li{
     height: 26px;
-    /*float: left;*/
+    float: left;
     list-style: none;
     text-align: right;
     padding: 10px;
@@ -45,7 +45,7 @@ section{
     height: auto;
     border: 1px solid gray;
     margin: 15px;
-    /*float: left;*/
+    display: inline-block;
 }
 
 .tarjetasPersonales h2 {
