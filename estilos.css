@@ -10,13 +10,8 @@ header{
 }
 header img{
     margin-left: 100px;
-<<<<<<< HEAD
     margin-top: 40px;
     /*float: left;*/
-=======
-    float: left;
-
->>>>>>> ef54f762274a1a542bf54b332ebc05dd8a6420b4
 }
 
 ul{
@@ -25,10 +20,7 @@ ul{
     height: 50px;
     margin-top: 20px;
     text-align: right;
-<<<<<<< HEAD
     position: relavite;
-=======
->>>>>>> ef54f762274a1a542bf54b332ebc05dd8a6420b4
 }
 
 ul li{
@@ -48,24 +40,14 @@ ul li{
 section{
     width: 95%;
     margin: 0px auto;
-<<<<<<< HEAD
     margin-top: 100px;
-=======
-    margin-top: 20px;
-
->>>>>>> ef54f762274a1a542bf54b332ebc05dd8a6420b4
 }
 .tarjetasPersonales{
     width: 300px;
     height: 480px;
     border: 1px solid gray;
-<<<<<<< HEAD
     margin: 15px;
     /*float: left;*/
-=======
-    margin: 9px;
-    float: left;
->>>>>>> ef54f762274a1a542bf54b332ebc05dd8a6420b4
 }
 
 .tarjetasPersonales h2 {
@@ -79,28 +61,11 @@ section{
 }
 
 /* Fin del Main*/
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*html {
     background-color: rgb(0, 0, 0);
-=======
-.clearfix{
-    float: none;
-    clear: both;
->>>>>>> ef54f762274a1a542bf54b332ebc05dd8a6420b4
 }
+
 /*Inicio Footer*/
 footer{
     height: 200px;
@@ -138,15 +103,9 @@ footer ul li{
 }
 a{
     text-decoration: none;
-<<<<<<< HEAD
     list-style: none;
     font-size: 1.5em;
-}*/
-
-
-
-=======
-    color: white;
 }
-/*Fin del Footer*/
->>>>>>> ef54f762274a1a542bf54b332ebc05dd8a6420b4
+
+
+
