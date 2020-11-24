@@ -12,97 +12,75 @@ header{
 header img{
     margin-left: 100px;
     margin-top: 40px;
-    /*float: left;*/
+    float: left;
 }
-
-ul{
-    /*float: right;*/
+#headeul{
+    float: right;
     margin-right: 10px;
     height: 50px;
     margin-top: 20px;
     text-align: right;
     position: relavite;
 }
-
-ul li{
+#headerul li {
     height: 26px;
-    /*float: left;*/
+    float: left;
     list-style: none;
     text-align: right;
     padding: 10px;
     font-size: 25px;
     line-height: 26px;
     letter-spacing: 2px;
-    /*display: inline-block;*/
+
 }
 /* Fin del Header*/
-
 /*Inicio del Main */
-section{
+.main{
     width: 95%;
     margin: 0px auto;
     margin-top: 100px;
+    display: inline-block;
 }
 .tarjetasPersonales{
     width: 300px;
     height: 480px;
     border: 1px solid gray;
     margin: 15px;
-    /*float: left;*/
+    float: left;
 }
-
 .tarjetasPersonales h2 {
     padding: 10px;
     margin: 0px auto;
-    
 }
 .tarjetasPersonales p{
     padding: 10px;
     margin: 0px auto;
 }
 
-/*Inicio Footer*/
-footer{
-    height: 200px;
-    width: 95%;
-    margin: 10px auto;
-    padding: 0px auto ; 
-    border: 1px 0px 0px 0px solid gray;
-}
-footer div{
-    width: 32%;
-    margin: 0px auto;
+
+/*Inicio Footer */ 
+
+
+
+footer img {
     float: left;
-}
-footer div h1{
-    margin: 0px auto;
-    width: 90%;
-    text-align: center;
-}
-footer div p{
-    width: 90%;
-    text-align: center;
-    margin: 0px;
+    margin: auto;
 }
 
-footer ul{
-    width: 90%;
-    text-align: center;
-    margin: 0px;
+footer ul {
+    display: inline-block;
+    padding-inline-start: 0px;
 }
-
-footer ul li{
-    font-size: 15px;
-    width: 90%;
-    text-align: center;
-    padding: 2px;
-}
-
-a {
-    text-decoration: none;
+footer ul li {
     list-style: none;
-    font-size: 1.5em;
+    display: inline-block;
+    padding: 1em;
+    margin: auto;
+}
+
+footer section div#rights {
+    display: inline-block;
 }
 
 
-
+   
