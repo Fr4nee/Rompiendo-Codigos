@@ -7,6 +7,7 @@ body{
 /* Inicio Header*/
 header{
     height: 100px;
+    padding-top: 20px;
 }
 header img{
     margin-left: 100px;
@@ -38,13 +39,13 @@ ul li{
 
 /*Inicio del Main */
 section{
-    width: 80%;
+    width: 95%;
     margin: 0px auto;
     margin-top: 100px;
 }
 .tarjetasPersonales{
     width: 300px;
-    height: auto;
+    height: 480px;
     border: 1px solid gray;
     margin: 15px;
     /*float: left;*/
@@ -71,6 +72,7 @@ footer{
 footer div{
     width: 32%;
     margin: 0px auto;
+    float: left;
 }
 footer div h1{
     margin: 0px auto;
@@ -88,13 +90,15 @@ footer ul{
     text-align: center;
     margin: 0px;
 }
+
 footer ul li{
     font-size: 15px;
     width: 90%;
     text-align: center;
     padding: 2px;
 }
-a{
+
+a {
     text-decoration: none;
     list-style: none;
     font-size: 1.5em;
