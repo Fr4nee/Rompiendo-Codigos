@@ -59,28 +59,36 @@ header img{
 
 
 /*Inicio Footer */ 
-
+footer {
+    background-color: #4B4646 !important;
+    height: 100px;
+}
 
 
 footer img {
     float: left;
     margin: auto;
+    min-width: 130px;
+    padding-right: 10em;
+
+}
+.enlaces {
+    position: center;
+    margin-left: 70px;
 }
 
-footer ul {
-    display: inline-block;
-    padding-inline-start: 0px;
-}
-footer ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 1em;
-    margin: auto;
+div a {
+    position: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-footer section div#rights {
-    display: inline-block;
+h5#rights {
+    font-size: 15px;
+    color: #2B92B7
 }
 
 
-   
