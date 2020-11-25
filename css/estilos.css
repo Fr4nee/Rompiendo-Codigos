@@ -35,7 +35,6 @@
 
 /*fin del slider*/
 
-
 /* Inicio Header*/
 header{
     height: 100px;
@@ -64,13 +63,17 @@ ul li{
     letter-spacing: 2px;
     
 }
-/* Fin del Header*/
 
 /*Inicio del Main */
-h2 {
+h2{
     font-size: 30px;
     margin-bottom: 30px;
     text-decoration: none;
+
+
+    
+
+
 }
 .container{
     margin: auto;
@@ -81,6 +84,23 @@ h2 {
     flex-wrap: wrap;
 }
 
+.portfolios{
+    margin-top: 100px;
+
+}
+
+
+.content-center{ 
+    max-width: 800px;
+    margin: 0 auto 66px auto;
+    text-align: center;
+    
+
+}
+.content-center h2{
+    margin-top: 50px;
+    
+}
 
 .portfolios-container {
     position: relative;
@@ -107,9 +127,43 @@ display: inline-block;
 }
 
 section{
-padding: 120px 0;
+   padding: 120px;
+   padding-top: 50px;
 }
 
 
+footer {
+    background-color: #4B4646 !important;
+    height: 150px;
+}
 
 
+footer img {
+    float: left;
+    margin: auto;
+    min-width: 130px;
+    padding-right: 10em;
+    padding-top: 1.4em;
+}
+
+footer div.enlaces {
+    padding-top: 2em;
+}
+
+
+div a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px; 
+    font-family: 'poppins-bold', sans-serif !important;
+}
+
+
+h5#rights {
+    font-size: 15px;
+    color: #2B92B7;
+    float: left;
+    margin-inline-start: 2.5em;
+}
