@@ -71,6 +71,35 @@ ul li{
 /* Fin del Header*/
 
 /*Inicio del Main */
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.col-md-6 img {
+   max-width: 50%;
+
+}
+
+.portfolios-container {
+    position: relative;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.portfolios-detalles {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index:1;
+}
+
+.portfolios-detalles a h2 {
+    color: white;
+    font-size: 25px;
+}
+
 .cuerpo{
     margin-top: 1000px;
 }
