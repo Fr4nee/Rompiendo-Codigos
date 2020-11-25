@@ -97,48 +97,7 @@ section{
     margin: 0px auto;
 }
 
-/*Inicio Footer*/
-footer{
-    height: 200px;
-    width: 95%;
-    margin: 10px auto;
-    padding: 0px auto; 
-    border: 1px 0px 0px 0px solid gray;
-}
-footer div{
-    width: 32%;
-    margin: 0px auto;
-    float: left;
-}
-footer div h1{
-    margin: 0px auto;
-    width: 90%;
-    text-align: center;
-}
-footer div p{
-    width: 90%;
-    text-align: center;
-    margin: 0px;
-}
 
-footer ul{
-    width: 90%;
-    text-align: center;
-    margin: 0px;
-}
-
-footer ul li{
-    font-size: 15px;
-    width: 90%;
-    text-align: center;
-    padding: 2px;
-}
-
-a {
-    text-decoration: none;
-    list-style: none;
-    font-size: 1.5em;
-}
 
 
 
