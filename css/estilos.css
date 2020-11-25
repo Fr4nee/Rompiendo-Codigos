@@ -19,7 +19,7 @@ header .encabezado ul a{
 header .encabezado ul li{
     list-style: none;
     float: left;
-    margin: 40px;
+    margin: 10px;
     padding-right: 20px;
     line-height: 24px;
 }
