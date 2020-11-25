@@ -9,6 +9,11 @@
     margin-top: 0px;
     position: absolute;
     width: 100%;
+    z-index: -1;
+}
+
+.slider img{
+    filter: grayscale(1); 
 }
 
 
