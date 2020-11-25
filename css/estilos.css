@@ -39,6 +39,7 @@ body{
     background: black;
     margin: 0px auto;
     color: white;
+    background: white;
 }
 /* Inicio Header*/
 header{
@@ -73,11 +74,29 @@ ul li{
 /*Inicio del Main */
 .cuerpo{
     margin-top: 1000px;
+    
+    
+
 }
+.cuerpo h2{
+    color: #4B4646;
+    font-size: 27px;
+    text-align: center;
+}
+.cuerpo p{
+    color:  #4B4646;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
+
 section{
     width: 95%;
     margin: 0px auto;
     margin-top: 60px;
+    
 }
 .tarjetasPersonales{
     width: 300px;
