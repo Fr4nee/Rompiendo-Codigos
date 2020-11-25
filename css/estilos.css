@@ -77,7 +77,8 @@ h2 {
     text-decoration: none;
 }
 
-.col-md-6 img {
+.col-md-6 img 
+{
    max-width: 50%;
 
 }
