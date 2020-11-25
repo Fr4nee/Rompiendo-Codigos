@@ -2,7 +2,7 @@
 /*Inicio Footer */ 
 footer {
     background-color: #4B4646 !important;
-    height: 100px;
+    height: 150px;
 }
 
 
@@ -11,29 +11,30 @@ footer img {
     margin: auto;
     min-width: 130px;
     padding-right: 10em;
+    padding-top: 1.4em;
 }
 
 
-.enlaces {
-    position: center;
-    margin-left: 70px;
+footer div.enlaces {
+    padding-top: 2em;
 }
 
 
 div a {
-    position: center;
     color: white;
     font-size: 18px;
     text-decoration: none;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px; 
     font-family: 'poppins-bold', sans-serif !important;
 }
 
 
 h5#rights {
     font-size: 15px;
-    color: #2B92B7
+    color: #2B92B7;
+    float: left;
+    margin-inline-start: 2.5em;
 }
 
 
