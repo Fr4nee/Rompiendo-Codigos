@@ -24,7 +24,7 @@ header .encabezado ul li{
     line-height: 24px;
 }
 /* FIN Estilos Menu*/
-.slider{
+.slider img{
     background-color: transparent;
     width: 100%;
     padding: 1px;
@@ -34,11 +34,6 @@ header .encabezado ul li{
     margin-top: 0px;
     position: absolute;
     width: 100%;
-    z-index: -1;
-}
-
-.slider img{
-    filter: grayscale(1); 
 }
 
 
