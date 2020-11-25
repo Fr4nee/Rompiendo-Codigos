@@ -35,7 +35,6 @@
 
 /*fin del slider*/
 
-
 /* Inicio Header*/
 header{
     height: 100px;
@@ -67,13 +66,18 @@ ul li{
 /* Fin del Header*/
 
 /*Inicio del Main */
-h2 {
+h2{
     font-size: 30px;
     margin-bottom: 30px;
     text-decoration: none;
+
+
+    
+
+
 }
 .container{
-   
+
     margin: auto;
     width: 90%;
     max-width: 1920px;
@@ -82,6 +86,23 @@ h2 {
     flex-wrap: wrap;
 }
 
+.portfolios{
+    margin-top: 100px;
+
+}
+
+
+.content-center{ 
+    max-width: 800px;
+    margin: 0 auto 66px auto;
+    text-align: center;
+    
+
+}
+.content-center h2{
+    margin-top: 50px;
+    
+}
 
 .portfolios-container {
     position: relative;
@@ -108,7 +129,8 @@ h2 {
 }
 
 section{
-   padding: 120px 0;
+   padding: 120px;
+   padding-top: 50px;
 }
 
 
