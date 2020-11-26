@@ -22,3 +22,75 @@ header .encabezado ul li{
     padding-right: 20px;
     line-height: 24px;
 }
+
+/* Inicio de ficha */
+
+div#ficha {
+    margin-bottom: 10em;
+}
+
+img#fotonico {
+    border-radius: 100%;
+    position: relative;
+    float: right;
+    margin-right: 6em;
+    margin-top: 1.5em;
+
+}
+
+h1#nombre {
+    margin-left: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+ul#datos {
+    list-style: none;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Fin de Ficha */
+
+/* Inicio de Footer*/
+footer {
+    background-color: #4B4646 !important;
+    height: 150px;
+    position: relative;
+    width: 100%;
+}
+
+
+footer img {
+    float: left;
+    margin: auto;
+    min-width: 130px;
+    padding-right: 10em;
+    padding-top: 1.4em;
+}
+
+footer div.enlaces {
+    padding-top: 2em;
+}
+
+div a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 20px; 
+    font-family: 'poppins-bold', sans-serif !important;
+}
+
+
+h5#rights {
+    font-size: 15px;
+    color: #2B92B7;
+    float: left;
+    margin-inline-start: 2.5em;
+    margin-left: 80px;
+}
