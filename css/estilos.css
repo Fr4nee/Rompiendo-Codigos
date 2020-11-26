@@ -30,7 +30,7 @@ header .encabezado ul li{
     padding: 1px;
     margin-top: 0px;
 }
-.encabezado{
+.encabezado li{
     margin-top: 0px;
     position: absolute;
     width: 100%;
