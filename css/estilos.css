@@ -8,6 +8,7 @@ header .encabezado img{
 header .encabezado ul{
     margin: 0px auto;
     float: right;
+    padding-top: 30px;
 }
 header .encabezado ul a{
     text-decoration: none;
