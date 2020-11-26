@@ -3,7 +3,10 @@
 header .encabezado img{
     min-width: 180px;
     max-width: 220px;
-
+    transition: all 500ms;
+}
+header .encabezado img:hover{
+    transform: rotate(360deg);
 }
 header .encabezado ul{
     margin: 0px auto;
@@ -16,11 +19,19 @@ header .encabezado ul a{
     text-align: center;
     font-family: 'poppins-regular', sans-serif;
     font-size: 20px;
+    transition: all 500ms;
 }
+header .encabezado ul li:hover {
+    border: 1px inset gray;
+    margin-right: 20px;
+    box-shadow: 17px -2px 300px 17px rgba(252,247,252,1);
+}
+
 header .encabezado ul li{
     list-style: none;
     float: left;
     margin: 10px;
+    width: auto;
     padding-right: 20px;
     line-height: 24px;
 }
