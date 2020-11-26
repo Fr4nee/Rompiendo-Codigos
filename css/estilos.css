@@ -1,8 +1,13 @@
 /* INICIO Estilos Menu*/
+html {
+    margin: 0;
+}
+
+
 header .encabezado img{
     min-width: 180px;
     max-width: 220px;
-
+    
 }
 header .encabezado ul{
     margin: 0px auto;
@@ -13,7 +18,7 @@ header .encabezado ul a{
     text-decoration: none;
     color: white;
     text-align: center;
-    font-family: 'poppins-regular', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
 }
 header .encabezado ul li{
@@ -27,8 +32,10 @@ header .encabezado ul li{
 .slider{
     background-color: transparent;
     width: 100%;
-    padding: 0px auto;
-    margin: 0px auto;
+    padding: 0px;
+    margin: 0px ;
+    object-fit: cover;
+    
 }
 .slider{
     padding-top: 0px;
@@ -45,7 +52,7 @@ header .encabezado ul li{
     text-align: center;
     margin-top: 200px;
     font-size: 50px;
-    font-family: "Tenor Sans";
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .slider h3{
@@ -75,9 +82,12 @@ header .encabezado ul li{
 /* Inicio Header*/
 header{
     height: 100px;
+    font-family: 'Titillium Web', sans-serif;
+
 }
 header img{
     float: left;
+    margin-bottom: 100px;
 }
 ul li{
     height: 26px;
@@ -92,77 +102,108 @@ ul li{
 }
 
 /*Inicio del Main */
-h2{
+
+body {
+    background: #f2f2f2;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+  }
+
+ h2 {
     font-size: 30px;
     margin-bottom: 30px;
-    text-decoration: none;
-
-
-    
-
-
-}
-.container{
-
-    margin: auto;
-    width: 90%;
-    max-width: 1920px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
-.portfolios{
-    margin-top: 100px;
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 5em;
 
-}
+    padding: 40px;
+  }
 
-
-.content-center{ 
+  .content-center {
+    padding-top: 60px;
     max-width: 800px;
-    margin: 0 auto 66px auto;
+    margin: 0 auto 60px auto;
     text-align: center;
-    
-
-}
-.content-center h2{
-    margin-top: 50px;
-    
 }
 
-.portfolios-container {
+
+
+
+  .location-listing {
     position: relative;
-    margin: 10px 0;
-    border-radius: 10px;
-}
-
-.portfolios-container img {
-    width: 40%;
-   display: inline-block;
-}
-.portfolios-detalles {
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
-    z-index: 9000;
-    
-}
-
-.portfolios-detalles h2 {
-    color: white;
-    font-size: 25px;
+  }
+  
+  .location-image {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .location-image img {
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+    padding:0;
+    width: 100%; 
+    height: 100%;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1.2s;
+  }
+  
+  .location-title {
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .8s;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+    margin: 0;
+    padding-bottom: 0;
+ 
+    
+  }
+
+  .g-light-grey {
+    background-color: #f5f5f5;
+}
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+  }
+  
+  .location-listing:hover .location-image img {
+    filter: blur(2px);
+  }
+  section {
+    padding: 120px 0;
 }
 
-section{
-   padding: 120px;
-   padding-top: 50px;
-}
-
-
+/* Inicio de Footer*/
 footer {
     background-color: #4B4646 !important;
     height: 150px;
+    position: relative;
+    width: 100%;
 }
 
 
@@ -178,12 +219,11 @@ footer div.enlaces {
     padding-top: 2em;
 }
 
-
 div a {
     color: white;
     font-size: 18px;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: 20px; 
     font-family: 'poppins-bold', sans-serif !important;
 }
@@ -194,4 +234,7 @@ h5#rights {
     color: #2B92B7;
     float: left;
     margin-inline-start: 2.5em;
+    margin-left: 80px;
 }
+
+/*Fin del footer */
