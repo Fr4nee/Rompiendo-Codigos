@@ -8,6 +8,7 @@ header .encabezado img{
 header .encabezado ul{
     margin: 0px auto;
     float: right;
+    padding-top: 30px;
 }
 header .encabezado ul a{
     text-decoration: none;
@@ -27,8 +28,11 @@ header .encabezado ul li{
 .slider{
     background-color: transparent;
     width: 100%;
-    padding: 1px;
-    margin-top: 0px;
+    padding: 0px auto;
+    margin: 0px auto;
+}
+.slider{
+    padding-top: 0px;
 }
 .encabezado{
     margin-top: 0px;
@@ -67,16 +71,6 @@ header{
 header img{
     float: left;
 }
-
-ul{
-    float: right;
-    margin-right: 10px;
-    height: 50px;
-    margin-top: 20px;
-    text-align: right;
-    position: relavite;
-}
-
 ul li{
     height: 26px;
     float: left;
