@@ -63,7 +63,16 @@ header .encabezado ul li{
 }
 
 /*fin del slider*/
-
+.logoWp a img{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 10;
+    color: white;
+    background-color: transparent;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    border-radius: 20%;
+}
 /* Inicio Header*/
 header{
     height: 100px;
