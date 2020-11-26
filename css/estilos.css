@@ -199,9 +199,11 @@ body {
     padding: 120px 0;
 }
 
+/* Inicio de Footer*/
 footer {
     background-color: #4B4646 !important;
     height: 150px;
+    position: relative;
     width: 100%;
 }
 
@@ -218,14 +220,13 @@ footer div.enlaces {
     padding-top: 2em;
 }
 
-
 div a {
     color: white;
     font-size: 18px;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: 20px; 
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'poppins-bold', sans-serif !important;
 }
 
 
@@ -234,4 +235,7 @@ h5#rights {
     color: #2B92B7;
     float: left;
     margin-inline-start: 2.5em;
+    margin-left: 80px;
 }
+
+/*Fin del footer */
