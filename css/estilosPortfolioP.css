@@ -15,6 +15,10 @@ header .encabezado ul a{
     text-align: center;
     font-family: 'poppins-regular', sans-serif;
     font-size: 20px;
+    transition: all 500ms;
+}
+header .encabezado ul a:hover{
+    border-bottom: 1px solid #4b4646;
 }
 header .encabezado ul li{
     list-style: none;
