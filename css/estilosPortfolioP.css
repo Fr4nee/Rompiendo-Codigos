@@ -15,6 +15,10 @@ header .encabezado ul a{
     text-align: center;
     font-family: 'poppins-regular', sans-serif;
     font-size: 20px;
+    transition: all 500ms;
+}
+header .encabezado ul a:hover{
+    border-bottom: 1px solid #4b4646;
 }
 header .encabezado ul li{
     list-style: none;
@@ -97,7 +101,13 @@ div a {
     font-family: 'poppins-bold', sans-serif !important;
 }
 
+footer .enlaces a{
+    transition: all 500ms;
+}
+footer .enlaces a:hover {
+    border-bottom: 1px solid white;
 
+}
 h5#rights {
     font-size: 15px;
     color: #2B92B7;

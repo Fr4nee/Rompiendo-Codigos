@@ -5,11 +5,11 @@ html {
 }
 
 
-header .encabezado img{
+header .encabezado img {
     min-width: 180px;
     max-width: 220px;
-    
 }
+
 header .encabezado ul{
     margin: 0px auto;
     float: right;
@@ -21,6 +21,7 @@ header .encabezado ul a{
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
+    transition: all 1s;
 }
 header .encabezado ul li{
     list-style: none;
@@ -28,6 +29,10 @@ header .encabezado ul li{
     margin: 10px;
     padding-right: 20px;
     line-height: 24px;
+
+}
+header .encabezado ul li a:hover{
+    border-bottom: 1px solid white;
 }
 /* FIN Estilos Menu*/
 .slider{
@@ -130,25 +135,25 @@ p {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 5em;
     padding: 40px;
- }
+}
 
-  .content-center {
+.content-center {
     padding-top: 60px;
     max-width: 800px;
     margin: 0 auto 60px auto;
     text-align: center;
 }
 
-  .location-listing {
+.location-listing {
     position: relative;
-  }
-  
-  .location-image {
+}
+
+.location-image {
     line-height: 0;
     overflow: hidden;
-  }
-  
-  .location-image img {
+}
+
+.location-image img {
     transition: filter 0.3s ease-in;
     transform: scale(1.1);
     padding:0;
@@ -157,10 +162,10 @@ p {
     -moz-transition: all 3s;
     -webkit-transition: all 2s;
     transition: all 2s;
-   
-  }
-  
-  .location-title {
+
+}
+
+.location-title {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -172,25 +177,24 @@ p {
     left: 0;
     opacity: 0;
 
-   
-  
+
     color: white;
     
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
+}
 
-  .location-listing:hover .location-title {
+
+.location-listing:hover .location-title {
     opacity: 1;
     margin: 0;
     padding-bottom: 0;
- 
-    
-  }
 
-  .g-light-grey {
+    
+}
+
+.g-light-grey {
     background-color: #f5f5f5 !important;
 }
   
@@ -237,6 +241,14 @@ div a {
     margin-left: 50px;
     margin-right: 20px; 
     font-family: 'poppins-bold', sans-serif !important;
+
+}
+footer .enlaces a{
+    transition: all 500ms;
+}
+footer .enlaces a:hover {
+    border-bottom: 1px solid white;
+
 }
 
 
