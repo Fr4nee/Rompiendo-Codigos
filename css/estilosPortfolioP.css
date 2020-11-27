@@ -1,6 +1,7 @@
 header .encabezado img{
     min-width: 180px;
     max-width: 220px;
+    padding-top: 20px;
 
 }
 header .encabezado ul{
@@ -27,6 +28,7 @@ header .encabezado ul li{
 
 div#ficha {
     margin-bottom: 10em;
+   
 }
 
 img#fotonico {
@@ -38,12 +40,17 @@ img#fotonico {
 
 }
 
+
 h1#nombre {
     margin-left: 1em;
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
     font-size: 2.5em;
+    color: #4b4646;
+    font-size: 30px;
+    margin-top: 50px;
 }
+
 
 ul#datos {
     list-style: none;
@@ -52,6 +59,10 @@ ul#datos {
     margin-left: 1em;
     margin-right: 1em;
     font-family: 'Titillium Web', sans-serif;
+    color: rgb(75, 75, 77);
+    font-size: 20px;
+    
+    padding-top: 15px;
 }
 
 /* Fin de Ficha */
