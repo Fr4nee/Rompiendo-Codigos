@@ -101,7 +101,13 @@ div a {
     font-family: 'poppins-bold', sans-serif !important;
 }
 
+footer .enlaces a{
+    transition: all 500ms;
+}
+footer .enlaces a:hover {
+    border-bottom: 1px solid white;
 
+}
 h5#rights {
     font-size: 15px;
     color: #2B92B7;

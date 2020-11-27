@@ -32,9 +32,7 @@ header .encabezado ul li{
 
 }
 header .encabezado ul li a:hover{
-    border-bottom: 1px inset gray;
-    border-right: 1px inset gray;
-    padding: 10px;
+    border-bottom: 1px solid white;
 }
 /* FIN Estilos Menu*/
 .slider{
