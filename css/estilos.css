@@ -56,8 +56,9 @@ header .encabezado ul li a:hover{
     color: white;
     text-align: center;
     margin-top: -23px;
-    font-size: 65px;
+    font-size: 80px;
     font-family: 'Titillium Web', sans-serif;
+    font-style: bold;
 }
 
 .slider h3{
