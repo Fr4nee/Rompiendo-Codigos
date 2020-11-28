@@ -31,8 +31,7 @@ header .encabezado ul li{
 /* Inicio de ficha */
 
 div#ficha {
-    margin-bottom: 10em;
-   
+    margin-bottom: 6.5em;
 }
 
 img#fotonico {
@@ -52,7 +51,7 @@ h1#nombre {
     font-size: 2.5em;
     color: #4b4646;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
@@ -85,11 +84,12 @@ footer img {
     margin: auto;
     min-width: 130px;
     padding-right: 10em;
-    padding-top: 1.4em;
+    padding-top: 1.6em;
+    padding-left: 1em;
 }
 
 footer div.enlaces {
-    padding-top: 2em;
+    padding-top: 2.2em;
 }
 
 div a {
