@@ -232,10 +232,11 @@ footer img {
     min-width: 130px;
     padding-right: 10em;
     padding-top: 1.4em;
+    padding-left: 1em;
 }
 
 footer div.enlaces {
-    padding-top: 2em;
+    padding-top: 2.2em;
 }
 
 div a {
