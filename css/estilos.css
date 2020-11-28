@@ -79,7 +79,7 @@ header .encabezado ul li a:hover{
 /*fin del slider*/
 .logoWp a img{
     position: fixed;
-    bottom: 50px;
+    bottom: -40px;
     right: 50px;
     z-index: 10;
     color: white;
