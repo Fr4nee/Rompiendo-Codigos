@@ -55,16 +55,19 @@ header .encabezado ul li a:hover{
 .slider h1{
     color: white;
     text-align: center;
-    margin-top: 200px;
-    font-size: 50px;
+    margin-top: -23px;
+    font-size: 65px;
     font-family: 'Titillium Web', sans-serif;
 }
 
 .slider h3{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    margin: 100px;
+    margin-top: 240px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
 }
+
 
 .slider button{
     color: white;
@@ -113,13 +116,14 @@ body {
     background: #f2f2f2;
     font-family: 'Titillium Web', sans-serif;
     margin: 0;
-  }
+    }
 
 
 h3 {
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #494747 ;
+
 }
 
 p {
