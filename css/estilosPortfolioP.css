@@ -114,4 +114,15 @@ h5#rights {
     float: left;
     margin-inline-start: 2.5em;
     margin-left: 80px;
+} 
+
+.logoWp a img{
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    z-index: 10;
+    color: white;
+    background-color: transparent;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    border-radius: 20%;
 }
